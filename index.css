@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.bg-white {
+  background: #fff !important;
+}
+
+#logo {
+  width: 20%;
+  height: 50px;
+}
+
+#menu {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+#menu a {
+  text-decoration: none;
+  color: black;
+}
+
+#navbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  background: #fff;
+}
+
+#menu h1 {
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+#menu h1:hover {
+  color: red;
+}
+
+#banner {
+  background-image: url("https://preview.colorlib.com/theme/pato/images/bg-title-page-01.jpg.webp");
+  height: 545px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#banner h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.title {
+  margin-bottom: 25px;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 50px;
+}
+
+.name,
+.lunch-name {
+  font-size: 18px;
+  color: #333333;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.price,
+.lunch-price {
+  font-size: 22px;
+  color: #333333;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.description,
+.luch-desc {
+  font-size: 13px;
+  color: #666666;
+  line-height: 1.7;
+}
+
+.thucdon-infor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thucdon-item {
+  margin-bottom: 30px;
+}
+
+.thucdon {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding-top: 50px;
+  background-color: #efefef;
+}
+
+.thucdon-cot {
+  width: 35%;
+}
+
+#lunch-banner {
+  background-image: url("https://preview.colorlib.com/theme/pato/images/header-menu-01.jpg.webp");
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#lunch-banner h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.send-email {
+  padding: 85px 0;
+  display: flex;
+  justify-content: center;
+  background-color: #efefef;
+  margin-top: 50px;
+  align-items: center;
+  gap: 20px;
+}
+
+.send-email-text {
+  font-weight: 700;
+  font-size: 26px;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.send-email-button {
+  padding: 10px 30px;
+  background: #111111;
+  border-radius: 10px;
+  color: white;
+  border: 0;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.send-email-input {
+  padding: 15px;
+  width: 300px;
+  border-radius: 10px;
+  border: 2px solid #d9d9d9;
+}
+
+#send-email-input {
+  position: relative;
+}
+
+.send-email-input-icon {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  right: 20px;
+}
+
+.send-email-button:hover {
+  background-color: #ec1d25;
+  color: white;
+  cursor: pointer;
+}
+
+.lunch-menu {
+  display: flex;
+}
+
+.lunch-menu-item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.lunch-menu-img {
+  width: 160px;
+  border-radius: 10px;
+}
+
+.lunch-name {
+  margin-bottom: 4px;
+}
+
+.lunch-desc {
+  margin-bottom: 12px;
+}
+
+footer {
+  padding: 20px 200px;
+  background: #000;
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+}
+
+footer i {
+  margin-right: 20px;
+}
